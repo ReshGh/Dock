@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="RU">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Любимые места</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous">
+        </script>
+
+        <style>
+            .card {
+                border-radius: 2em;
+                text-align: center;
+                padding: 10%;
+            }
+            .card:hover {
+                background-color: rgb(0,0, 0, 0.1);
+            }
+            .card img {
+                border-radius: 10%;
+                width: 60%;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand p-0" href="/">
+                    <img src="/img/OG.png" alt="logo" width="50px">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="saite.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="places.html">Любимые места</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                <div class="col">
+                    <div class="card">
+                        <img
+                            src="./img/JorgGlascher_waves_1_1920.jpg.webp"
+                            class="card-img-top"
+                            alt="forest">
+                        <div class="card-body">
+                            <h5 class="card-title">Лес</h5>
+                            <p class="card-text">Тревожный период из-за второй волны COVID-19 фотограф и
+                                художник Йорг Глэшер провел в уединенном месте недалеко от Гамбурга. Решив
+                                направить свое беспокойство в арт-проект, он собрал мертвую древесину и построил
+                                девять массивных гребней волны.</p>
+                            <a
+                                href="https://www.interior.ru/art/12283-iorg-glesher-volni-iz-vetok-v-nemetskom-lesu.html"
+                                class="btn btn-primary"
+                                target="_blank">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img
+                            src="https://russiantouramerica.com/wp-content/uploads/2018/08/Nju-Jork-foto-free-1000x700.jpg"
+                            class="card-img-top"
+                            alt="forest">
+                        <div class="card-body">
+                            <h5 class="card-title">Нью-Йорк</h5>
+                            <p class="card-text">Нью-Йорк (New York City или City of New York) - мегаполис
+                                мирового значения и крупнейший город в США с населением свыше 8,3 миллиона
+                                человек. Является экономическим и финансовым центром Соединенных Штатов Америки,
+                                а так же одним из самых известных городов в мире.</p>
+                            <a
+                                href="https://www.interior.ru/art/12283-iorg-glesher-volni-iz-vetok-v-nemetskom-lesu.html"
+                                class="btn btn-primary"
+                                target="_blank">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img
+                            src="https://iv.kommersant.ru/Issues.photo/REGIONS/KRASNOYARSK_Online/2021/09/22/KKR_000123_00207_1_t218_192550.jpg"
+                            class="card-img-top"
+                            alt="forest">
+                        <div class="card-body">
+                            <h5 class="card-title">Лес</h5>
+                            <p class="card-text">Сибирь… Для многих жителей планеты это до сих пор
+                                таинственные, неизведанные, а потому пугающие земли. Как это ни странно звучит,
+                                но по сей день о Сибири ходит множество небылиц, а само это понятие
+                                ассоциируется лишь с лютыми морозами, нефтью и русским мужиком в шапке-ушанке.</p>
+                            <a
+                                href="https://www.interior.ru/art/12283-iorg-glesher-volni-iz-vetok-v-nemetskom-lesu.html"
+                                class="btn btn-primary"
+                                target="_blank">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
